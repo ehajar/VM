@@ -1,0 +1,25 @@
+<div class="container my-5">
+  <div class="row">
+    <div class="col-3 m-auto">
+
+      <form (ngSubmit) = "ajouter(f)" #f>
+        
+        <div>
+          <span>Nom</span>
+          <input class="form-control" type="text" name="nom" />
+        </div>
+        <div>
+          <span>IP</span>
+          <input class="form-control" type="text" name="ip" />
+        </div>
+        <div>
+          <span>system Exploitation</span>
+          <input class="form-control" type="text" name="systemExploitation" />
+        </div>
+
+        <input type="submit" value="Enregistrer" class="btn btn-primary"/>
+        
+      </form>
+    </div>
+  </div>
+</div>
